@@ -57,10 +57,15 @@ GitHub.com - сервис для удаленной работы с репози
 
     git remote add origin https://github.com/KhidayatIminova/test-3.git  
 
-***origin** - обозначение URL-ссылки на репозиторий (например push origin - отправит на удаленный репозиторий)*
+*присваиваем URL-адресу на репозиторий test-3 обозначение **origin***
 
     git branch -M main
 
 *главную ветку называем **main** (так принято). Теперь если выполнить git branch, то вместо ветки **master** будет  ветка **main***
 
     git push -u origin main
+
+*отправляем ветку **main** на **origin** (где **origin** это URL-адрес репозитория test-3 на Github (см.выше))*
+
+Переходим на GitHub - теперь там отображается обновленный репозиторий test-3 с изменениями
+
